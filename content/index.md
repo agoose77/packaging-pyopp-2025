@@ -13,6 +13,11 @@ subtitle:
 
 ## Basic
 
+Import as unit of sharing
+When you import, what happens
+
+
+
 - test PyPI
 - library vs app
 - dependency specification
@@ -25,6 +30,8 @@ subtitle:
 - compiled code [rust, c++]
 - conda-forge
 - emscripten-forge?
+
+wheles simple repo -- https://peps.python.org/pep-0503/
 
 ## Useful links:
 
