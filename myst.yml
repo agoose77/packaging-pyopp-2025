@@ -2,12 +2,18 @@
 version: 1
 project:
   id: fd158221-c23e-4f83-ad6d-f9f642e5430e
-  # title:
-  # description:
-  # keywords: []
-  # authors: []
+  author:
+    name: Angus Hollands
+    orcid: 0000-0003-0788-3814
+    github: agoose77
+    bsky: agoose77.bsky.social
+    mastodon: agoose77@fosstodon.org
+  toc:
+    - file: content/index.md
+    - file: content/glossary.md
   github: https://github.com/agoose77/packaging-pyopp-2025
-  # To autogenerate a Table of Contents, run "myst init --write-toc"
+  references:
+    ppug: https://packaging.python.org/en/latest/
 site:
   template: book-theme
   # options:
