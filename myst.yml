@@ -12,6 +12,7 @@ project:
     mastodon: agoose77@fosstodon.org
   toc:
     - file: content/index.md
+    - file: content/who-am-i.md
     - title: Introduction to Packaging
       children:
         - file: content/what-is-a-package.md
@@ -29,5 +30,6 @@ site:
   options:
     logo_text: Packaging in Python
     logo: media/logo.png
+    style: ./style.css
   #   favicon: favicon.ico
   #   logo: site_logo.png
