@@ -18,7 +18,7 @@ project:
         - file: content/what-is-a-package.md
         - file: content/why-create-a-package.md
         - file: content/kinds-of-distribution-packages.md
-        - file: content/how-to-create-a-package.md
+        - file: content/how-to-create-a-distribution.md
     - title: Slides
       children:
         - pattern: content/slides/slide*.md
