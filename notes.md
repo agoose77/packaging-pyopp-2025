@@ -1,0 +1,28 @@
+## Introduction
+
+## Basic
+
+Import as unit of sharing
+When you import, what happens
+
+- test PyPI
+- library vs app
+- dependency specification
+- dependency bounds
+- ci/cd?
+
+## Advanced
+
+- build plugins
+- compiled code [rust, c++]
+- conda-forge
+- emscripten-forge?
+
+wheles simple repo -- https://peps.python.org/pep-0503/
+
+## Useful links:
+
+- https://carpentries-incubator.github.io/python_packaging/instructor/04-history-of-packaging.html
+- https://the-hitchhikers-guide-to-packaging.readthedocs.io/en/latest/history.html#
+- https://learn.scientific-python.org/development/guides/repo-review/
+- https://matthewfeickert-talks.github.io/talk-odsl-forum-seminar-2023/#4

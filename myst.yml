@@ -2,6 +2,8 @@
 version: 1
 project:
   id: fd158221-c23e-4f83-ad6d-f9f642e5430e
+  abbreviations:
+    PyPA: Python Packaging Authority
   author:
     name: Angus Hollands
     orcid: 0000-0003-0788-3814
@@ -10,12 +12,22 @@ project:
     mastodon: agoose77@fosstodon.org
   toc:
     - file: content/index.md
+    - title: Introduction to Packaging
+      children:
+        - file: content/what-is-a-package.md
+    - title: Slides
+      children:
+        - pattern: content/slides/slide*.md
     - file: content/glossary.md
+    - file: notes.md
+
   github: https://github.com/agoose77/packaging-pyopp-2025
   references:
     ppug: https://packaging.python.org/en/latest/
 site:
   template: book-theme
-  # options:
+  options:
+    logo_text: Packaging in Python
+    logo: media/logo.png
   #   favicon: favicon.ico
   #   logo: site_logo.png
