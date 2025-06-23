@@ -34,4 +34,13 @@ There are other reasons, besides philanthropy or network-effects, to share your 
 
 Although we won't discuss this in great detail, the hardest part of programming is trying to revive an old project. Through the best-practices involved in creating a Python package, it will be easier to come-back to an old project and figure out why it doesn't work! Packaging makes it easier to write good tests, and encourages you to author helpful documentation and employ continuous integration.
 
+::::{important} Conclusion
+:label: important:conclusion-why-create
+We've learned that:
+
+- Building a network of packages can have network-effects.
+- Sharing work with others encourages best-practices when writing code.
+- Bundling your code into a package makes it easier to keep it from breaking!
+  ::::
+
 [^writing]: As of 2025-06-23.

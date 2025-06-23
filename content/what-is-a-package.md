@@ -16,7 +16,7 @@ os.chdir(tempfile.mkdtemp())
 ```
 
 :::{tip} Objective
-:label: tip:objective-package
+:label: tip:objective-what-is
 We're going to learn two definitions of the word "package", and why the distinction is useful!
 :::
 
@@ -160,7 +160,7 @@ No surprises there, that looks like the same files we saw in @cell:numpy-dir. Wh
 This is _not_ a Python {term}`import package`. We've encountered something _new_ — these files are Python _distribution data_. More on that later!
 
 ::::{important} Conclusion
-:label: important:conclusion-package
+:label: important:conclusion-what-is
 We've learned that:
 
 - an {term}`import package` is not the same thing as a {term}`distribution package`.

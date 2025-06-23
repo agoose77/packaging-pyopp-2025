@@ -1,7 +1,7 @@
 # Kinds of Distribution Packages
 
 :::{tip} Objective
-:label: tip:objective-distributions
+:label: tip:objective-kinds-of
 We're going to learn about two different kinds of {term}`distribution package`, and how they compare.
 :::
 This whole discussion so far has been back-to-front. We've started with some assumptions about `pip`, and NumPy, and used those to play around a little. Let's take a step back.
@@ -36,6 +36,26 @@ Er... this is a bit technical. The most important bit is very easy to miss:
 - Source distributions are installed by _building binary distributions_, and then installing them.
   :::
 
+:::{exercise} Install a source distribution
+Most packages you install with `pip` these days are binary distribution.
+
+I've created a simple demo package and uploaded a source distribution, go ahead and install it. Let me know if you have any problems — we'll need this for later on in the talk.
+
+1. Create a virtual environment
+   ```shell
+   python -m venv .venv
+   ```
+2. Activate the virtual environment
+   ```shell
+   source .venv/bin/activate
+   ```
+3. Install the package
+   ```shell
+   pip install demo-setup-exec
+   ```
+
+:::
+
 Source distributions are known as "sdists". Binary distributions are known as "wheels", hence the `.whl` extension. If you want to know _why_ the name "wheel", it's Monty Python. It's _always_ Monty Python with Python! We'll use the words "wheel" and "binary distribution" interchangeably from now on.
 
 :::{important} Copying files is easy!
@@ -59,4 +79,11 @@ Here, these `-XXX` parts have special meaning:
 
 You might be seeing where this is going; the wheel _installation_ is not customisable, but we _can_ build a unique wheel for the particular Python version and operating system we are interested in. This is advanced detail, that we won't cover more on for now.
 
-##
+::::{important} Conclusion
+:label: important:conclusion-kinds-of
+We've learned that:
+
+- There are {term}`source distributions (sdists)<source distribution>` and {term}`binary distributions (wheels)<binary distribution>`.
+- Binary distributions are easier to install.
+- Binary distributions are specialised to the target.
+  ::::
