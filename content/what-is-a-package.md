@@ -20,7 +20,7 @@ os.chdir(tempfile.mkdtemp())
 We're to understand _what_ a package is, and why the distinction is useful!
 :::
 
-## It begins with a word
+## The word "package"
 
 Ugh, another heavily overloaded word! Like einsetzen[^einsetzen], _packaging_ has a _lot_ of different interpretations. Some of us might already have an idea:
 
@@ -108,7 +108,7 @@ That confirms it — NumPy is importable _and_ `pip` knows about it. But, _how_ 
 
 These are all great questions.
 
-## Distribution packages
+## Our first look at a distribution package
 
 By now, we've covered the fact that if you can import a Python module, it's an {term}`import package`. By the process of deduction, what we have left must be a {term}`distribution package`. In Python, when people use the word "package" in the context of "packaging", they're nearly _always_ talking about {term}`distribution packages<distribution package>`.
 
