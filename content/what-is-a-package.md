@@ -17,7 +17,7 @@ os.chdir(tempfile.mkdtemp())
 
 :::{tip} Objective
 :label: tip:objective-package
-We're to understand _what_ a package is, and why the distinction is useful!
+We're going to learn two definitions of the word "package", and why the distinction is useful!
 :::
 
 ## The word "package"
@@ -110,9 +110,11 @@ These are all great questions.
 
 ## Our first look at a distribution package
 
-By now, we've covered the fact that if you can import a Python module, it's an {term}`import package`. By the process of deduction, what we have left must be a {term}`distribution package`. In Python, when people use the word "package" in the context of "packaging", they're nearly _always_ talking about {term}`distribution packages<distribution package>`.
+By now, we've covered the fact that if you can import a Python module, it's an {term}`import package`. We also had an alternative definition of a package:
 
-You can _easily_ find out what a distribution package looks like! Let's take NumPy for example! The `pip` program has a `download` option:
+![](#quote:install-package)
+
+We learned that the PyPA call this a {term}`distribution package`. You can _easily_ find out what a distribution package looks like! Let's take NumPy for example! The `pip` program has a `download` option:
 
 ```{code-cell}
 :label: cell:numpy-download
@@ -157,13 +159,20 @@ No surprises there, that looks like the same files we saw in @cell:numpy-dir. Wh
 
 This is _not_ a Python {term}`import package`. We've encountered something _new_ — these files are Python _distribution data_. More on that later!
 
-:::{important} Conclusion
+::::{important} Conclusion
 :label: important:conclusion-package
 We've learned that:
 
 - an {term}`import package` is not the same thing as a {term}`distribution package`.
-- `pip` downloads and installs {term}`distribution packages<distribution-package>`.
-  :::
+- `pip` downloads and installs {term}`distribution packages<distribution package>`.
+- {term}`distribution packages<distribution package>` contain {term}`import packages<import package>`.
+
+:::{note} Note on terminology
+
+In Python, when people use the word "package" in the context of "packaging", they're nearly _always_ talking about {term}`distribution packages<distribution package>`.
+
+:::
+::::
 
 [^einsetzen]: Better German speakers than I have reliably informed me that _einsetzen_ is a [very overloaded term](https://dict.zero-g.net/#q=einsetzen) in German!
 
