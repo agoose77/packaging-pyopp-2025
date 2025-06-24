@@ -30,7 +30,6 @@ project:
       children:
         - pattern: content/slides/slide*.md
     - file: content/glossary.md
-    - file: notes.md
 
   github: https://github.com/agoose77/packaging-pyopp-2025
   references:
