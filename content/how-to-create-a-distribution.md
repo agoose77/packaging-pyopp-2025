@@ -63,16 +63,16 @@ Any _modern_ Python {term}`build backend` _should_ understand the contents of th
 
 ```{code-cell} python3
 :name: code:hatch-new
-!hatch new order-66
+!hatch new arrow-to-knee
 ```
 
 ### Customising your `pyproject.toml`
 
-Hatch has created several files and directories under a new directory `./order-66/`. Let's first take a glance at the pyproject.toml:
+Hatch has created several files and directories under a new directory `./arrow-to-knee/`. Let's first take a glance at the pyproject.toml:
 
 ```{code-cell} python3
 :name: code:hatch-new-pyproject
-!head order-66/pyproject.toml
+!head arrow-to-knee/pyproject.toml
 ```
 
 You can see that there's already some metadata here like the `[build-system]` table, and the required Python version. A helpful overview of these fields and their supported values is given in <xref:ppug#guides/writing-pyproject-toml>.
@@ -81,7 +81,7 @@ You can see that there's already some metadata here like the `[build-system]` ta
 :label: ex:add-project-metadata
 
 1. Use the `hatch new` command to create scaffolding for your project.
-2. Use the <xref:ppug#guides/writing-pyproject-toml> guide to customise the new `pyproject.toml` file.
+2. Use the <xref:ppug#guides/writing-pyproject-toml> guide to customise the new `pyproject.toml` file, e.g. by adding a short description.
    :::
 
 ## Upgrade an existing project to use Hatch
@@ -100,8 +100,32 @@ This command will ask you a few questions, and upgrade your project to use Hatch
 This is a fragile operation, and might not succeed. Feel free to ask for help
 :::
 
+:::{important} Important metadata to define
+:label: important:metadata-to-define
+
+1. Supported Python versions (lower bound)
+2. Project licence.
+3. Necessary dependencies.
+4. Build system
+   :::
+
+## Build your first distributions
+
+With our basic project scaffolding, we have all the pieces required to build our first distributions! The `hatch build` command does everything we need:
+
+```{code-cell}
+:label: code:hatch-build
+%%bash
+cd ./arrow-to-knee
+hatch build
+```
+
+We can look at these distributions just like we did in [](#cell:numpy-dirs)!
+
 ::::{important} Conclusion
 :label: important:conclusion-how-to-create
 We've learned that:
 
-- ::::
+- Using tools like Hatch makes it easy to create project scaffolding
+- How to build a {term}`source distribution` and {term}`binary distribution` with Hatch.
+  ::::

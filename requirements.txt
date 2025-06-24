@@ -1,3 +1,5 @@
 numpy
+hatch
+
 jupyter-server
 ipykernel
