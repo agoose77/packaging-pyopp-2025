@@ -1,19 +1,7 @@
 ---
 title: How to Define Scripts
 subtitle: Make your package do something!
-_kernelspec:
-  name: python3
-  display_name: Python
 ---
-
-```{code-cell} python3
-:tags: [remove-cell]
-
-import os, tempfile
-# Disable Hatch colour
-os.environ['NO_COLOR']='1'
-os.chdir(tempfile.mkdtemp())
-```
 
 ::::{tip} Objective
 :label: tip:objective-how-to-scripts

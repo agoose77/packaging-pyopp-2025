@@ -25,6 +25,7 @@ project:
         - file: content/how-to-create-a-distribution.md
         - file: content/how-to-add-dependencies.md
         - file: content/how-to-define-scripts.md
+        - file: content/apps-vs-libraries.md
     - title: Slides
       children:
         - pattern: content/slides/slide*.md
