@@ -19,7 +19,7 @@ What is the purpose of a distribution? Well, it exists to solve the following pr
 
 For example, you might write some analysis code that needs to be able to import NumPy in order to perform some array calculations. You might need an older version of NumPy that still supports a particular feature. How do you signal to your users that this is the case? This is the purpose of a distribution: to encode additional information alongside your code.
 
-## Kinds of Distribution
+## Two kinds of distributions
 
 There are two _kinds_ of distribution that Python packaging knows about:
 :::{glossary}
