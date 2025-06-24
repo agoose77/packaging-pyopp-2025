@@ -23,6 +23,7 @@ When you import, what happens
 ## Advanced
 
 - build plugins
+- normal plugins
 - compiled code [rust, c++]
 - conda-forge
 - emscripten-forge?
