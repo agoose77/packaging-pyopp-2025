@@ -85,7 +85,7 @@ You might wonder why this is useful? Why don't users just install these dependen
 
 ## Dependency groups
 
-When you start using Python packages to help _develop_ your package, such as the `ruff` code formatter, you will want to deifne that these packages are a required development tool. Historically, people have used `project.optional-dependencies` for this, so you'll often see something like the following:
+When you start using Python packages to help _develop_ your package, such as the `ruff` code formatter, you will want to define that these packages are a required development tool. Historically, people have used `project.optional-dependencies` for this, so you'll often see something like the following:
 
 ```{code} shell
 :label: code:install-dev-extra
@@ -108,7 +108,6 @@ pip install --group dev
 ```
 
 It will install the packages from the `dev` dependency group!
-`
 ::::{important} Conclusion
 :label: important:conclusion-how-to-depend
 We've learned that:

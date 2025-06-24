@@ -104,7 +104,7 @@ This is a fragile operation, and might not succeed. Feel free to ask for help
 :label: important:metadata-to-define
 
 1. Supported Python versions (lower bound)
-2. Project licence.
+2. Project license.
 3. Necessary dependencies.
 4. Build system
    :::

@@ -13,7 +13,7 @@ This whole discussion so far has been back-to-front. We've started with some ass
 
 What is the purpose of a distribution? Well, it exists to solve the following problems:
 
-1. Bundle a Python {term}`import package` into a shareable container
+1. Bundle a Python {term}`import package` into a sharable container
 2. Store metadata like the version of the package, and author contact details!
 3. List _other_ {term}`distribution packages<distribution package>` that are used by _this_ package.
 

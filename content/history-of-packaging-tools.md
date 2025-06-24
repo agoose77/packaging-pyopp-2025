@@ -12,7 +12,7 @@ We're going to learn about the basic history of Python packaging, and how to nav
 
 :::{danger} Don't look out the windows
 :label: danger:look-windows
-Packaging in Python has a bad reputation, especially on internet forums.
+Packaging in Python has a bad reputation, especially on Internet forums.
 
 > I agree, Python packaging/installation has way too many alternatives with no clear guidance from the community.
 >
@@ -21,7 +21,7 @@ Packaging in Python has a bad reputation, especially on internet forums.
 Python was designed before modern languages and their ecosystems (like Rust) existed, and sometimes people compare the two unfairly! You've been warned!
 :::
 
-At one point in time, there was no such thing as `pip` or PyPI. To share packages, people would structure their code in a particular way using the `distutils` libray (with a `setup.py` file), and manually (by-hand) distribute the result to their colleagues.
+At one point in time, there was no such thing as `pip` or PyPI. To share packages, people would structure their code in a particular way using the `distutils` library (with a `setup.py` file), and manually (by-hand) distribute the result to their colleagues.
 
 Then, the Python Package Index (PyPI) was created, and `distutils` learned how to upload to PyPI. Packages stored on PyPI could be manually downloaded and installed.
 
@@ -49,7 +49,7 @@ This introduces a lot of new terms:
 Build backend
 : A tool for use by machines that creates (builds) {term}`source distributions<source distribution>` and {term}`binary distributions<binary distribution>`.
 
-Build frontend
+Build front end
 : A user-friendly tool that invokes the appropriate {term}`build backend` for a given directory containing a Python source tree.
 
 Package installer
@@ -62,7 +62,7 @@ Which can help us to understand the status quo:
 
 - Package _authors_ can pick from a range of {term}`build backends<build backend>` (e.g. `setuptools`).
 - Package _authors_ can (mostly) use the same `pyproject.toml` across {term}`build backends<build backend>`.
-- Package _authors_ can pick from a range of {term}`build frontends<build frontend>` (like `build`, or `pip`).
+- Package _authors_ can pick from a range of {term}`build front ends<build front end>` (like `build`, or `pip`).
 - Package _users_ can pick from a range of {term}`package installers<package installer>` (e.g. `uv`).
   :::
 
