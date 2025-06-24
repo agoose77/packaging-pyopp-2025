@@ -74,6 +74,31 @@ If a user requires both `arrow-to-knee` and `numpy>=2`, what will happen? This p
 Although _mathematically_, back solving is correct, it is usually the _wrong_ behaviour. See [this blog by Henry Schreiner](https://iscinumpy.dev/post/bound-version-constraints/#backsolving-is-usually-wrong) for more.
 ::::
 
+::::{note} Styles of versioning
+:label: note:style-version
+There are many different kinds of versioning styles. Some people use {term}`SemVer`. I encourage you to break from convention and think about what makes the most sense.
+:::{glossary}
+:label: glossary:apps-libs
+
+SemVer
+: Semantic Versioning — meaningful changes with `major`.`minor`.`patch`. Each component communicates a certain kind of change.
+
+CalVer
+: Calendar Versioning — versions get better with time. Often of the form `YYYY.MM.<other>`, with lots of variations.
+
+EffVer
+: Effort Versioning — vibes-based versioning with `macro`.`meso`.`micro`. Each component communicates a certain level of effort to upgrade.
+
+ZeroVer
+: Zero Versioning — like {term}`SemVer` but the `major` component is always 0!
+
+Single Digit
+: There's only one number, and it always increases!
+
+:::
+
+::::
+
 ## Applications vs Libraries
 
 This brings us back to the question of {term}`applications<application>` vs {term}`libraries<library>`.
@@ -95,3 +120,12 @@ The distinction between {term}`applications<application>` and {term}`libraries<l
 
 If you're writing a library, _don't_ add upper bounds to your dependencies unless you _have_ to. Trust your users to be able to fix things instead!
 :::
+
+::::{important} Conclusion
+:label: important:conclusion-app-lib
+We've learned that:
+
+- Applications and libraries have different dependency needs.
+- Over-constraining doesn't always do what you expect.
+- Upper caps are often harmful, and hard to predict.
+  ::::
