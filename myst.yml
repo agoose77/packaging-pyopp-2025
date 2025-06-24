@@ -38,12 +38,30 @@ project:
         #     for file in sorted(slide.glob("*.md")):
         #         print(f"{slide_indent}- file: {file}")
         #]]]
-        - title: slide-1
+        - title: slide-01
           children:
-           - file: content/slides/slide-1/slide-1.md
-           - file: content/slides/slide-1/slide-2.md
-           - file: content/slides/slide-1/slide-3.md
-           - file: content/slides/slide-1/slide-4.md
+           - file: content/slides/slide-01/slide-01.md
+           - file: content/slides/slide-01/slide-02.md
+           - file: content/slides/slide-01/slide-03.md
+           - file: content/slides/slide-01/slide-04.md
+           - file: content/slides/slide-01/slide-05.md
+           - file: content/slides/slide-01/slide-06.md
+           - file: content/slides/slide-01/slide-07.md
+           - file: content/slides/slide-01/slide-08.md
+           - file: content/slides/slide-01/slide-09.md
+           - file: content/slides/slide-01/slide-10.md
+           - file: content/slides/slide-01/slide-11.md
+        - title: slide-02
+          children:
+           - file: content/slides/slide-02/slide-01.md
+           - file: content/slides/slide-02/slide-02.md
+           - file: content/slides/slide-02/slide-03.md
+           - file: content/slides/slide-02/slide-04.md
+           - file: content/slides/slide-02/slide-05.md
+        - title: slide-04
+          children:
+           - file: content/slides/slide-04/slide-01.md
+           - file: content/slides/slide-04/slide-02.md
         #[[[end]]]
     - file: content/glossary.md
 

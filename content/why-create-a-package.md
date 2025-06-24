@@ -13,12 +13,15 @@ The obvious question in the back of our minds should be "what is the point in cr
 ## Sharing is caring
 
 :::{pull-quote}
+:label: pull:sharing
 By packaging your code, other people can use it!
 :::
 When you write code to solve a problem, it may often solve a problem that _other_ people have too. By packaging your code, other people can benefit from your work and re-use the solution.
 :::{note} Leveraging network effects
 :label: note:network-effects
-The more people packaging and sharing their solutions in this way, the easier it is to get things done! This is the idea of a <wiki:Network_effect>. There are 649,838 Python packages on the main Python package index — that's a big network![^writing]
+The more people packaging and sharing their solutions in this way, the easier it is to get things done! This is the idea of a <wiki:Network_effect>.
+
+There are 649,838 Python packages on the main Python package index — that's a big network![^writing]
 :::
 
 :::{tip} Think about your users

@@ -15,6 +15,7 @@ We're going to understand the difference between applications and libraries, and
 
 ```{code} toml
 :filename: pyproject.toml
+:label: code:pyproject-cap
 [project]
 dependencies = [
    "numpy>=2.0,<3.0"

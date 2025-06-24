@@ -74,6 +74,7 @@ Is this you?
 With this self-deprecating line of thinking, we should clearly prefer using other people's code. Let's try importing NumPy[^req]!
 
 ```{code-cell} python3
+:label: cell:import
 import numpy
 ```
 
@@ -99,6 +100,7 @@ But how does the code _get there_?
 The next question is obvious! How does the code get there?? From our previous discussion we can infer that someone may have _installed_ NumPy, such as with pip.
 
 ```{code-cell} python3
+:label: cell:show-numpy
 :class: space-cat
 
 %pip show numpy
@@ -115,6 +117,11 @@ By now, we've covered the fact that if you can import a Python module, it's an {
 ![](#quote:install-package)
 
 We learned that the PyPA call this a {term}`distribution package`. You can _easily_ find out what a distribution package looks like! Let's take NumPy for example! The `pip` program has a `download` option:
+
+:::{figure} ../media/you-wouldnt-download-a-package.png
+:label: fig:you-wouldnt
+A very important disclaimer from the 2000s
+:::
 
 ```{code-cell}
 :label: cell:numpy-download
