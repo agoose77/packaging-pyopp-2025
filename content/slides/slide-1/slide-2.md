@@ -1,4 +1,4 @@
-# What is a Package?
+# The word "package"
 
 :::{embed} #quote:import-package
 :::

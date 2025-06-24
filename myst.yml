@@ -28,7 +28,23 @@ project:
         - file: content/library-vs-apps.md
     - title: Slides
       children:
-        - pattern: content/slides/slide*.md
+        #[[[cog]
+        #
+        # import pathlib
+        # base_indent = ""
+        # for slide in sorted(pathlib.Path("content/slides/").glob("*")):
+        #     print(f"{base_indent}- title: {slide.name}\n{base_indent}  children:")
+        #     slide_indent = f"{base_indent}   "
+        #     for file in sorted(slide.glob("*.md")):
+        #         print(f"{slide_indent}- file: {file}")
+        #]]]
+        - title: slide-1
+          children:
+           - file: content/slides/slide-1/slide-1.md
+           - file: content/slides/slide-1/slide-2.md
+           - file: content/slides/slide-1/slide-3.md
+           - file: content/slides/slide-1/slide-4.md
+        #[[[end]]]
     - file: content/glossary.md
 
   github: https://github.com/agoose77/packaging-pyopp-2025

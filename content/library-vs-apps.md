@@ -78,7 +78,7 @@ Although _mathematically_, back solving is correct, it is usually the _wrong_ be
 :label: note:style-version
 There are many different kinds of versioning styles. Some people use {term}`SemVer`. I encourage you to break from convention and think about what makes the most sense.
 :::{glossary}
-:label: glossary:apps-libs
+:label: glossary:versioning
 
 SemVer
 : Semantic Versioning — meaningful changes with `major`.`minor`.`patch`. Each component communicates a certain kind of change.
