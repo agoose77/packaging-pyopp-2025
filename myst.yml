@@ -4,6 +4,8 @@ project:
   id: fd158221-c23e-4f83-ad6d-f9f642e5430e
   abbreviations:
     PyPA: Python Packaging Authority
+    PyPI: Python Package Index
+    PEP: Python Enhancement Proposal
   author:
     name: Angus Hollands
     orcid: 0000-0003-0788-3814
@@ -18,6 +20,7 @@ project:
         - file: content/what-is-a-package.md
         - file: content/why-create-a-package.md
         - file: content/kinds-of-distribution-packages.md
+        - file: content/history-of-packaging-tools.md
         - file: content/how-to-create-a-distribution.md
     - title: Slides
       children:

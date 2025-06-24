@@ -1,4 +1,7 @@
-# Kinds of Distribution Packages
+---
+title: Kinds of Distribution Packages
+short_title: Kinds of Packages
+---
 
 :::{tip} Objective
 :label: tip:objective-kinds-of
