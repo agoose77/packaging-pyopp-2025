@@ -28,60 +28,52 @@ project:
         - file: content/library-vs-apps.md
     - title: Slides
       children:
-        #[[[cog]
-        #
-        # import pathlib
-        # base_indent = ""
-        # for slide in sorted(pathlib.Path("content/slides/").glob("*")):
-        #     print(f"{base_indent}- title: {slide.name}\n{base_indent}  children:")
-        #     slide_indent = f"{base_indent}   "
-        #     for file in sorted(slide.glob("*.md")):
-        #         print(f"{slide_indent}- file: {file}")
-        #]]]
-        - title: slide-01
+        - title: What is a Package?
           children:
-           - file: content/slides/slide-01/slide-01.md
-           - file: content/slides/slide-01/slide-02.md
-           - file: content/slides/slide-01/slide-03.md
-           - file: content/slides/slide-01/slide-04.md
-           - file: content/slides/slide-01/slide-05.md
-           - file: content/slides/slide-01/slide-06.md
-           - file: content/slides/slide-01/slide-07.md
-           - file: content/slides/slide-01/slide-08.md
-           - file: content/slides/slide-01/slide-09.md
-           - file: content/slides/slide-01/slide-10.md
-           - file: content/slides/slide-01/slide-11.md
-        - title: slide-02
+            - file: content/slides/slide-01/slide-01.md
+            - file: content/slides/slide-01/slide-02.md
+            - file: content/slides/slide-01/slide-03.md
+            - file: content/slides/slide-01/slide-04.md
+            - file: content/slides/slide-01/slide-05.md
+            - file: content/slides/slide-01/slide-06.md
+            - file: content/slides/slide-01/slide-07.md
+            - file: content/slides/slide-01/slide-08.md
+            - file: content/slides/slide-01/slide-09.md
+            - file: content/slides/slide-01/slide-10.md
+            - file: content/slides/slide-01/slide-11.md
+        - title: Why Create a Package?
           children:
-           - file: content/slides/slide-02/slide-01.md
-           - file: content/slides/slide-02/slide-02.md
-           - file: content/slides/slide-02/slide-03.md
-           - file: content/slides/slide-02/slide-04.md
-           - file: content/slides/slide-02/slide-05.md
-        - title: slide-03
+            - file: content/slides/slide-02/slide-01.md
+            - file: content/slides/slide-02/slide-02.md
+            - file: content/slides/slide-02/slide-03.md
+            - file: content/slides/slide-02/slide-04.md
+            - file: content/slides/slide-02/slide-05.md
+        - title: Kinds of Distribution Packages?
           children:
-           - file: content/slides/slide-03/slide-01.md
-           - file: content/slides/slide-03/slide-02.md
-           - file: content/slides/slide-03/slide-03.md
-           - file: content/slides/slide-03/slide-04.md
-           - file: content/slides/slide-03/slide-05.md
-           - file: content/slides/slide-03/slide-06.md
-        - title: slide-04
+            - file: content/slides/slide-03/slide-01.md
+            - file: content/slides/slide-03/slide-02.md
+            - file: content/slides/slide-03/slide-03.md
+            - file: content/slides/slide-03/slide-04.md
+            - file: content/slides/slide-03/slide-05.md
+            - file: content/slides/slide-03/slide-06.md
+        - title: History of Packaging Tools
           children:
-           - file: content/slides/slide-04/slide-01.md
-           - file: content/slides/slide-04/slide-02.md
-           - file: content/slides/slide-04/slide-03.md
-           - file: content/slides/slide-04/slide-04.md
-           - file: content/slides/slide-04/slide-05.md
-           - file: content/slides/slide-04/slide-06.md
-           - file: content/slides/slide-04/slide-07.md
+            - file: content/slides/slide-04/slide-01.md
+            - file: content/slides/slide-04/slide-02.md
+            - file: content/slides/slide-04/slide-03.md
+            - file: content/slides/slide-04/slide-04.md
+            - file: content/slides/slide-04/slide-05.md
+            - file: content/slides/slide-04/slide-06.md
+            - file: content/slides/slide-04/slide-07.md
         - title: slide-05
           children:
         - title: slide-06
           children:
-           - file: content/slides/slide-06/slide-01.md
-           - file: content/slides/slide-06/slide-02.md
-        #[[[end]]]
+        - title: slide-07
+          children:
+        - title: Applications vs Libraries
+          children:
+            - file: content/slides/slide-08/slide-01.md
     - file: content/glossary.md
 
   github: https://github.com/agoose77/packaging-pyopp-2025
