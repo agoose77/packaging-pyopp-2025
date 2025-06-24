@@ -1,3 +1,3 @@
-# Applications vs libraries
+# History of packaging
 
-![](#tip:objective-app-lib)
+![](#tip:objective-history-of)

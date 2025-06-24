@@ -58,10 +58,27 @@ project:
            - file: content/slides/slide-02/slide-03.md
            - file: content/slides/slide-02/slide-04.md
            - file: content/slides/slide-02/slide-05.md
+        - title: slide-03
+          children:
+           - file: content/slides/slide-03/slide-01.md
+           - file: content/slides/slide-03/slide-02.md
+           - file: content/slides/slide-03/slide-03.md
+           - file: content/slides/slide-03/slide-04.md
+           - file: content/slides/slide-03/slide-05.md
+           - file: content/slides/slide-03/slide-06.md
         - title: slide-04
           children:
            - file: content/slides/slide-04/slide-01.md
            - file: content/slides/slide-04/slide-02.md
+           - file: content/slides/slide-04/slide-03.md
+           - file: content/slides/slide-04/slide-04.md
+           - file: content/slides/slide-04/slide-05.md
+           - file: content/slides/slide-04/slide-06.md
+           - file: content/slides/slide-04/slide-07.md
+        - title: slide-05
+          children:
+           - file: content/slides/slide-05/slide-01.md
+           - file: content/slides/slide-05/slide-02.md
         #[[[end]]]
     - file: content/glossary.md
 

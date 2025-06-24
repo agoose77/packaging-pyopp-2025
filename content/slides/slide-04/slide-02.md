@@ -1,3 +1,3 @@
-# Dependency hell
+# Everyone's got baggage
 
-![](#code:pyproject-cap)
+![](#danger:look-windows)

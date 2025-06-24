@@ -13,9 +13,13 @@ This whole discussion so far has been back-to-front. We've started with some ass
 
 What is the purpose of a distribution? Well, it exists to solve the following problems:
 
+:::{div}
+:label: div:distribution-problems
+
 1. Bundle a Python {term}`import package` into a sharable container
 2. Store metadata like the version of the package, and author contact details!
 3. List _other_ {term}`distribution packages<distribution package>` that are used by _this_ package.
+   :::
 
 For example, you might write some analysis code that needs to be able to import NumPy in order to perform some array calculations. You might need an older version of NumPy that still supports a particular feature. How do you signal to your users that this is the case? This is the purpose of a distribution: to encode additional information alongside your code.
 
@@ -34,12 +38,14 @@ Source distribution
 Er... this is a bit technical. The most important bit is very easy to miss:
 
 :::{important}
+:label: important:distribution-note
 
 - Binary distributions are installed by _copying files_.
 - Source distributions are installed by _building binary distributions_, and then installing them.
   :::
 
 :::{exercise} Install a source distribution
+:label: ex:install-source
 Most packages you install with `pip` these days are binary distribution.
 
 I've created a simple demo package and uploaded a source distribution, go ahead and install it. Let me know if you have any problems — we'll need this for later on in the talk.

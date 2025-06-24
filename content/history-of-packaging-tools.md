@@ -59,6 +59,7 @@ Package installer
 Which can help us to understand the status quo:
 
 :::{note} The status quo of Python packaging
+:label: note:status-quo
 
 - Package _authors_ can pick from a range of {term}`build backends<build backend>` (e.g. `setuptools`).
 - Package _authors_ can (mostly) use the same `pyproject.toml` across {term}`build backends<build backend>`.
