@@ -1,3 +1,3 @@
-# Kinds of distribution packages
+# Objective
 
 ![](#tip:objective-kinds-of)

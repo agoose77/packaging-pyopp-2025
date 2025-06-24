@@ -1,3 +1,3 @@
-# What is a Package?
+# Objective
 
 ![](#tip:objective-what-is)

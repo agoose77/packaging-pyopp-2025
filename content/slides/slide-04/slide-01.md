@@ -1,3 +1,3 @@
-# History of packaging
+# Objective
 
 ![](#tip:objective-history-of)

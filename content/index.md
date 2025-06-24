@@ -11,9 +11,9 @@ My aim is that everyone comes away from this workshop having learned _something_
 
 :::{important} Goals of this workshop
 
-- To end this workshop with a Python package that can be published to PyPI
-- To know about the important "standards" and "tools"
-- To understand the difference between an _import_ package and _distribution_ package
-- To understand _how_ Python finds importable code
-- Thinking about _personas_ of your users
+- To end up with a Python package that can be published to PyPI.
+- To know about the important "standards" and "tools" in packaging.
+- To understand the difference between an _import_ package and _distribution_ package.
+- To understand _how_ Python finds importable code.
+- To have an idea of the _personas_ of your users.
   :::
