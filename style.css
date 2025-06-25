@@ -75,7 +75,7 @@
 }
 
 /* Slide styles */
-.slide {
+:has(.slide) {
   /* Hide header icons */
   & #skip-to-frontmatter {
     & > :first-child {
