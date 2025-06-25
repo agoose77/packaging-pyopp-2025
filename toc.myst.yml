@@ -82,13 +82,6 @@ project:
                 - file: content/slides/advanced-packaging/slide-01/slide-10.md
             - title: Editable Installations
               children:
-                #[[[cog]
-                #
-                # import pathlib
-                # base_indent = ""
-                # for slide in sorted(pathlib.Path("content/slides/advanced-packaging/slide-02/").glob("*.md")):
-                #     print(f"- file: {slide}")
-                #]]]
                 - file: content/slides/advanced-packaging/slide-02/slide-01.md
                 - file: content/slides/advanced-packaging/slide-02/slide-02.md
                 - file: content/slides/advanced-packaging/slide-02/slide-03.md
@@ -96,9 +89,22 @@ project:
                 - file: content/slides/advanced-packaging/slide-02/slide-05.md
                 - file: content/slides/advanced-packaging/slide-02/slide-06.md
                 - file: content/slides/advanced-packaging/slide-02/slide-07.md
-                #[[[end]]]
             - title: Dynamic Metadata
-              children: []
+              children:
+                #[[[cog]
+                #
+                # import pathlib
+                # base_indent = ""
+                # for slide in sorted(pathlib.Path("content/slides/advanced-packaging/slide-03/").glob("*.md")):
+                #     print(f"- file: {slide}")
+                #]]]
+                - file: content/slides/advanced-packaging/slide-03/slide-01.md
+                - file: content/slides/advanced-packaging/slide-03/slide-02.md
+                - file: content/slides/advanced-packaging/slide-03/slide-03.md
+                - file: content/slides/advanced-packaging/slide-03/slide-04.md
+                - file: content/slides/advanced-packaging/slide-03/slide-05.md
+                - file: content/slides/advanced-packaging/slide-03/slide-06.md
+                #[[[end]]]
             - title: File Selection
             # version, description
             - title: Build Plugins

@@ -91,8 +91,11 @@
   vertical-align: middle !important;
 }
 
+:root {
+  --is-fullscreen: false;
+}
 /* Slide styles */
-html.slide {
+@media all and (display-mode: fullscreen) {
   /* Hide header icons */
   #skip-to-frontmatter {
     & > :first-child {
@@ -112,4 +115,8 @@ html.slide {
   main > :last-child {
     display: none;
   }
+}
+
+html:has(* .h1-text-xl) h1 {
+  font-size: 7rem;
 }
