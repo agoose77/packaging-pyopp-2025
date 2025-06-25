@@ -1,5 +1,10 @@
+# Kernel environment
 numpy
+
+# Kernel
+ipykernel
+
+# System dependencies
+jupyter-server
 hatch
 
-jupyter-server
-ipykernel

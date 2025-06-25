@@ -23,14 +23,26 @@
           name = "lecture-env";
           targetPkgs = pkgs: (with pkgs; [
             nodejs_24
+            python312Full
           ]);
           runScript = "${pkgs.writeShellScriptBin "runScript" (''
-              set -e
-              if [[ ! -d node_modules ]]; then
-                ${pkgs.lib.getExe' pkgs.nodejs_24 "npm"} install
+                     set -e
+              # NodeJS
+                     if [[ ! -d node_modules ]]; then
+                       ${pkgs.lib.getExe' pkgs.nodejs_24 "npm"} install
+                     fi
+                     export PATH="$PWD/node_modules/.bin/:$PATH"
+
+              # Python
+                     if [[ ! -d .venv ]]; then
+                ${pkgs.python3.interpreter} -m venv .venv
+                       source .venv/bin/activate
+                python -m pip install -r requirements.txt
+              else
+                       source .venv/bin/activate
               fi
-              export PATH="$PWD/node_modules/.bin/:$PATH"
-              set +e
+
+                     set +e
             ''
             + script)}/bin/runScript";
         })
