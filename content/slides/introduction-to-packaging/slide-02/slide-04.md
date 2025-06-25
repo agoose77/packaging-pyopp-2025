@@ -1,3 +1,11 @@
+---
+site:
+  hide_toc: true
+  hide_outline: true
+---
+
++++ { "class": "slide" }
+
 # Strive for reproducibiliy
 
 - The hardest thing is reviving an old project.

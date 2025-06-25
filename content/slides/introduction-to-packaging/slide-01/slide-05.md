@@ -1,3 +1,11 @@
+---
+site:
+  hide_toc: true
+  hide_outline: true
+---
+
++++ { "class": "slide" }
+
 # Where does Python find packages?
 
 Where is NumPy?

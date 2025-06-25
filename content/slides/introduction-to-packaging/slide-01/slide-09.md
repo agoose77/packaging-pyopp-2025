@@ -1,3 +1,11 @@
+---
+site:
+  hide_toc: true
+  hide_outline: true
+---
+
++++ { "class": "slide" }
+
 # What did we download?
 
 We see that there are is a `.whl` file

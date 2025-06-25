@@ -1,3 +1,11 @@
+---
+site:
+  hide_toc: true
+  hide_outline: true
+---
+
++++ { "class": "slide" }
+
 # Building on one computer, using on another
 
 From our previous slide:

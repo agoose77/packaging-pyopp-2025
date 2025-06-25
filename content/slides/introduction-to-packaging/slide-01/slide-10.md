@@ -1,3 +1,11 @@
+---
+site:
+  hide_toc: true
+  hide_outline: true
+---
+
++++ { "class": "slide" }
+
 # What does the `.whl` contain?
 
 :::{embed} #cell:numpy-dirs

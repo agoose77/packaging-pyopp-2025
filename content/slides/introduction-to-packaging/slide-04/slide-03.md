@@ -1,3 +1,11 @@
+---
+site:
+  hide_toc: true
+  hide_outline: true
+---
+
++++ { "class": "slide" }
+
 # The near past ...
 
 - Before `pip` and PyPI`, people shared code by hand using `distutils`
