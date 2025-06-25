@@ -1,5 +1,7 @@
 # Kernel environment
 numpy
+# Use a local install of our package
+-e ./arrow-to-knee
 
 # Kernel
 ipykernel

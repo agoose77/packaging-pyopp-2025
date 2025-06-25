@@ -12,6 +12,7 @@ Instead of
 
 ```{code} python
 :linenos:
+:label: code:no-dep-inj
 import plugin
 
 def application():
@@ -22,7 +23,8 @@ we have
 
 ```{code} python
 :emphasize-lines: 1
-:linenosc
+:linenos:
+:label: code:dep-inj
 
 def application(plugin):
     plugin.compute()

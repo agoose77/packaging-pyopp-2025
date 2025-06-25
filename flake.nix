@@ -23,7 +23,8 @@
           name = "lecture-env";
           targetPkgs = pkgs: (with pkgs; [
             nodejs_24
-            python312Full
+            python312Full  
+            pythonManylinuxPackages.manylinux2014Package
           ]);
           runScript = "${pkgs.writeShellScriptBin "runScript" (''
                      set -e
