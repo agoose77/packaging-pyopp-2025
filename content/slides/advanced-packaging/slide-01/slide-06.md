@@ -6,7 +6,7 @@ site:
   hide_title_block: true
 ---
 
-+++ { "class": "slide" }
+
 
 :::{important} Dependency injection is simple!
 :label: important:dep-inj-simple

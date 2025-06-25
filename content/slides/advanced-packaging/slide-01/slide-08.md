@@ -4,7 +4,7 @@ site:
   hide_outline: true
 ---
 
-+++ { "class": "slide" }
+
 
 # How to Create a Plugin
 

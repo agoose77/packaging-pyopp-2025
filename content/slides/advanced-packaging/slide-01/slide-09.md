@@ -7,7 +7,7 @@ site:
   hide_outline: true
 ---
 
-+++ { "class": "slide" }
+
 
 # Loading a Plugin
 

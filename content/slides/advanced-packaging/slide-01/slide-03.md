@@ -6,6 +6,6 @@ site:
   hide_title_block: true
 ---
 
-+++ { "class": "slide" }
+
 
 ![](../../../../media/wat.gif)

@@ -70,13 +70,6 @@ project:
           children:
             - title: Plugins
               children:
-                #[[[cog]
-                #
-                # import pathlib
-                # base_indent = ""
-                # for slide in sorted(pathlib.Path("content/slides/advanced-packaging/slide-01/").glob("*.md")):
-                #     print(f"- file: {slide}")
-                #]]]
                 - file: content/slides/advanced-packaging/slide-01/slide-01.md
                 - file: content/slides/advanced-packaging/slide-01/slide-02.md
                 - file: content/slides/advanced-packaging/slide-01/slide-03.md
@@ -86,5 +79,28 @@ project:
                 - file: content/slides/advanced-packaging/slide-01/slide-07.md
                 - file: content/slides/advanced-packaging/slide-01/slide-08.md
                 - file: content/slides/advanced-packaging/slide-01/slide-09.md
+            - title: Editable Installations
+              children:
+                #[[[cog]
+                #
+                # import pathlib
+                # base_indent = ""
+                # for slide in sorted(pathlib.Path("content/slides/advanced-packaging/slide-02/").glob("*.md")):
+                #     print(f"- file: {slide}")
+                #]]]
                 #[[[end]]]
+            - title: Dynamic Metadata
+              children: []
+            - title: File Selection
+            # version, description
+            - title: Build Plugins
+              children: []
+            - title: Compiled Extensions
+              children: []
+            - title: Packaging for the web
+              children: []
+            - title: Reproducile Builds
+            #  emscripten-forge
+            # pyodide
+
     - file: content/glossary.md
