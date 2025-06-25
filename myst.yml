@@ -1,5 +1,7 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
+extends:
+  - toc.myst.yml
 project:
   id: fd158221-c23e-4f83-ad6d-f9f642e5430e
   abbreviations:
@@ -13,68 +15,6 @@ project:
     github: agoose77
     bsky: agoose77.bsky.social
     mastodon: agoose77@fosstodon.org
-  toc:
-    - file: content/index.md
-    - file: content/who-am-i.md
-    - title: Introduction to Packaging
-      children:
-        - file: content/what-is-a-package.md
-        - file: content/why-create-a-package.md
-        - file: content/kinds-of-distribution-packages.md
-        - file: content/history-of-packaging-tools.md
-        - file: content/how-to-create-a-distribution.md
-        - file: content/how-to-add-dependencies.md
-        - file: content/how-to-define-scripts.md
-        - file: content/library-vs-apps.md
-    - title: Slides
-      children:
-        - title: What is a Package?
-          children:
-            - file: content/slides/slide-01/slide-01.md
-            - file: content/slides/slide-01/slide-02.md
-            - file: content/slides/slide-01/slide-03.md
-            - file: content/slides/slide-01/slide-04.md
-            - file: content/slides/slide-01/slide-05.md
-            - file: content/slides/slide-01/slide-06.md
-            - file: content/slides/slide-01/slide-07.md
-            - file: content/slides/slide-01/slide-08.md
-            - file: content/slides/slide-01/slide-09.md
-            - file: content/slides/slide-01/slide-10.md
-            - file: content/slides/slide-01/slide-11.md
-        - title: Why Create a Package?
-          children:
-            - file: content/slides/slide-02/slide-01.md
-            - file: content/slides/slide-02/slide-02.md
-            - file: content/slides/slide-02/slide-03.md
-            - file: content/slides/slide-02/slide-04.md
-            - file: content/slides/slide-02/slide-05.md
-        - title: Kinds of Distribution Packages?
-          children:
-            - file: content/slides/slide-03/slide-01.md
-            - file: content/slides/slide-03/slide-02.md
-            - file: content/slides/slide-03/slide-03.md
-            - file: content/slides/slide-03/slide-04.md
-            - file: content/slides/slide-03/slide-05.md
-            - file: content/slides/slide-03/slide-06.md
-        - title: History of Packaging Tools
-          children:
-            - file: content/slides/slide-04/slide-01.md
-            - file: content/slides/slide-04/slide-02.md
-            - file: content/slides/slide-04/slide-03.md
-            - file: content/slides/slide-04/slide-04.md
-            - file: content/slides/slide-04/slide-05.md
-            - file: content/slides/slide-04/slide-06.md
-            - file: content/slides/slide-04/slide-07.md
-        - title: slide-05
-          children:
-        - title: slide-06
-          children:
-        - title: slide-07
-          children:
-        - title: Applications vs Libraries
-          children:
-            - file: content/slides/slide-08/slide-01.md
-    - file: content/glossary.md
 
   github: https://github.com/agoose77/packaging-pyopp-2025
   references:

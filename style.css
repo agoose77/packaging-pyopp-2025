@@ -1,33 +1,35 @@
-.space-cat [data-mdast-node-id] {
-  background-attachment: fixed;
-  background-image: url(https://w0.peakpx.com/wallpaper/601/937/HD-wallpaper-space-cat-galaxy-landscapes-meme-purple-sky-starlight-stars-universe.jpg);
+/* Styles for effect (amusing animation) */
+:root {
+  .space-cat [data-mdast-node-id] {
+    background-attachment: fixed;
+    background-image: url(https://w0.peakpx.com/wallpaper/601/937/HD-wallpaper-space-cat-galaxy-landscapes-meme-purple-sky-starlight-stars-universe.jpg);
 
-  /* This is gnarly because CSS scrolling isn't behaving due to parent 
+    /* This is gnarly because CSS scrolling isn't behaving due to parent 
    * FF needs flag enabled for animation
    * */
-  background-position-y: bottom;
-  background-position-x: center;
-  background-blend-mode: lighten;
-  background-repeat: round;
+    background-position-y: bottom;
+    background-position-x: center;
+    background-blend-mode: lighten;
+    background-repeat: round;
 
-  animation-timeline: view();
-  animation-name: appear;
-  animation-fill-mode: both;
-  animation-duration: 1ms; /* Firefox requires this to apply the animation */
-  --bg-color-start: rgba(255, 255, 255, 1);
-  --bg-color-end: rgba(255, 255, 255, 0);
-  --text-color-start: initial;
-  --text-color-end: white;
+    animation-timeline: view();
+    animation-name: appear;
+    animation-fill-mode: both;
+    animation-duration: 1ms; /* Firefox requires this to apply the animation */
+    --bg-color-start: rgba(255, 255, 255, 1);
+    --bg-color-end: rgba(255, 255, 255, 0);
+    --text-color-start: initial;
+    --text-color-end: white;
+  }
+
+  &.dark .space-cat [data-mdast-node-id] {
+    background-blend-mode: darken;
+    --bg-color-start: rgba(28, 25, 23, 1);
+    --bg-color-end: rgba(28, 25, 23, 0);
+    --text-color-start: initial;
+    --text-color-end: initial;
+  }
 }
-
-html.dark .space-cat [data-mdast-node-id] {
-  background-blend-mode: darken;
-  --bg-color-start: rgba(28, 25, 23, 1);
-  --bg-color-end: rgba(28, 25, 23, 0);
-  --text-color-start: initial;
-  --text-color-end: initial;
-}
-
 @keyframes appear {
   0% {
     background-color: var(--bg-color-start);
@@ -50,6 +52,8 @@ html.dark .space-cat [data-mdast-node-id] {
     color: var(--text-color-end);
   }
 }
+
+/* Styles for text colours, etc */
 .span-col-blue span {
   color: #1e4ef6;
   font-size: 1.1em;
@@ -68,4 +72,22 @@ html.dark .space-cat [data-mdast-node-id] {
 /* FIXME: list-table class name */
 .td-align-middle td {
   vertical-align: middle !important;
+}
+
+/* Slide styles */
+.slide {
+  /* Hide header icons */
+  & #skip-to-frontmatter {
+    & > :first-child {
+      display: none;
+    }
+    /* Hide author */
+    header {
+      display: none;
+    }
+  }
+  /* Hide primary nav */
+  & div:has(> nav) {
+    display: none;
+  }
 }

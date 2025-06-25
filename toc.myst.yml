@@ -1,0 +1,86 @@
+version: 1
+project:
+  toc:
+    - file: content/index.md
+    - file: content/who-am-i.md
+    - title: Introduction to Packaging
+      children:
+        - file: content/what-is-a-package.md
+        - file: content/why-create-a-package.md
+        - file: content/kinds-of-distribution-packages.md
+        - file: content/history-of-packaging-tools.md
+        - file: content/how-to-create-a-distribution.md
+        - file: content/how-to-add-dependencies.md
+        - file: content/how-to-define-scripts.md
+        - file: content/library-vs-apps.md
+    - title: Slides
+      children:
+        - title: Introduction to Packaging
+          children:
+            - title: What is a Package?
+              children:
+                - file: content/slides/introduction-to-packaging/slide-01/slide-01.md
+                - file: content/slides/introduction-to-packaging/slide-01/slide-02.md
+                - file: content/slides/introduction-to-packaging/slide-01/slide-03.md
+                - file: content/slides/introduction-to-packaging/slide-01/slide-04.md
+                - file: content/slides/introduction-to-packaging/slide-01/slide-05.md
+                - file: content/slides/introduction-to-packaging/slide-01/slide-06.md
+                - file: content/slides/introduction-to-packaging/slide-01/slide-07.md
+                - file: content/slides/introduction-to-packaging/slide-01/slide-08.md
+                - file: content/slides/introduction-to-packaging/slide-01/slide-09.md
+                - file: content/slides/introduction-to-packaging/slide-01/slide-10.md
+                - file: content/slides/introduction-to-packaging/slide-01/slide-11.md
+            - title: Why Create a Package?
+              children:
+                - file: content/slides/introduction-to-packaging/slide-02/slide-01.md
+                - file: content/slides/introduction-to-packaging/slide-02/slide-02.md
+                - file: content/slides/introduction-to-packaging/slide-02/slide-03.md
+                - file: content/slides/introduction-to-packaging/slide-02/slide-04.md
+                - file: content/slides/introduction-to-packaging/slide-02/slide-05.md
+            - title: Kinds of Distribution Packages?
+              children:
+                - file: content/slides/introduction-to-packaging/slide-03/slide-01.md
+                - file: content/slides/introduction-to-packaging/slide-03/slide-02.md
+                - file: content/slides/introduction-to-packaging/slide-03/slide-03.md
+                - file: content/slides/introduction-to-packaging/slide-03/slide-04.md
+                - file: content/slides/introduction-to-packaging/slide-03/slide-05.md
+                - file: content/slides/introduction-to-packaging/slide-03/slide-06.md
+            - title: History of Packaging Tools
+              children:
+                - file: content/slides/introduction-to-packaging/slide-04/slide-01.md
+                - file: content/slides/introduction-to-packaging/slide-04/slide-02.md
+                - file: content/slides/introduction-to-packaging/slide-04/slide-03.md
+                - file: content/slides/introduction-to-packaging/slide-04/slide-04.md
+                - file: content/slides/introduction-to-packaging/slide-04/slide-05.md
+                - file: content/slides/introduction-to-packaging/slide-04/slide-06.md
+                - file: content/slides/introduction-to-packaging/slide-04/slide-07.md
+            - title: Define a Package 🚧
+              children:
+                - file: content/slides/introduction-to-packaging/slide-05/slide-01.md
+            - title: How to Add Dependencies 🚧
+              children:
+                - file: content/slides/introduction-to-packaging/slide-06/slide-01.md
+            - title: How to Define Scripts 🚧
+              children:
+                - file: content/slides/introduction-to-packaging/slide-07/slide-01.md
+            - title: Applications vs Libraries
+              children:
+                - file: content/slides/introduction-to-packaging/slide-08/slide-01.md
+        - title: Advanced Packaging
+          children:
+            - title: Plugins
+              children:
+                #[[[cog]
+                #
+                # import pathlib
+                # base_indent = ""
+                # for slide in sorted(pathlib.Path("content/slides/advanced-packaging/slide-01/").glob("*.md")):
+                #     print(f"- file: {slide}")
+                #]]]
+                - file: content/slides/advanced-packaging/slide-01/slide-01.md
+                - file: content/slides/advanced-packaging/slide-01/slide-02.md
+                - file: content/slides/advanced-packaging/slide-01/slide-03.md
+                - file: content/slides/advanced-packaging/slide-01/slide-04.md
+                - file: content/slides/advanced-packaging/slide-01/slide-05.md
+                #[[[end]]]
+    - file: content/glossary.md
