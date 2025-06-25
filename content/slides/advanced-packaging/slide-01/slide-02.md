@@ -1,3 +1,11 @@
+---
+site:
+  hide_toc: true
+  hide_outline: true
+---
+
++++ { "class": "slide" }
+
 # The Problem
 
 - I am writing an application or library 🤖

@@ -4,6 +4,8 @@ site:
   hide_outline: true
 ---
 
++++ { "class": "slide" }
+
 # Objective
 
 :::{important} Objective
