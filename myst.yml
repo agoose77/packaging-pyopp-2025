@@ -9,6 +9,7 @@ project:
     PyPI: Python Package Index
     PEP: Python Enhancement Proposal
     CLI: Command Line Interface
+    DI: Dependency Injection
   author:
     name: Angus Hollands
     orcid: 0000-0003-0788-3814

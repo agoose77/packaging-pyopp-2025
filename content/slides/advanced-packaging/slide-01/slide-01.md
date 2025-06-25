@@ -4,8 +4,6 @@ site:
   hide_outline: true
 ---
 
-
-
 # Objective
 
 :::{important} Objective

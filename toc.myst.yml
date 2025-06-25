@@ -79,6 +79,7 @@ project:
                 - file: content/slides/advanced-packaging/slide-01/slide-07.md
                 - file: content/slides/advanced-packaging/slide-01/slide-08.md
                 - file: content/slides/advanced-packaging/slide-01/slide-09.md
+                - file: content/slides/advanced-packaging/slide-01/slide-10.md
             - title: Editable Installations
               children:
                 #[[[cog]
@@ -88,6 +89,13 @@ project:
                 # for slide in sorted(pathlib.Path("content/slides/advanced-packaging/slide-02/").glob("*.md")):
                 #     print(f"- file: {slide}")
                 #]]]
+                - file: content/slides/advanced-packaging/slide-02/slide-01.md
+                - file: content/slides/advanced-packaging/slide-02/slide-02.md
+                - file: content/slides/advanced-packaging/slide-02/slide-03.md
+                - file: content/slides/advanced-packaging/slide-02/slide-04.md
+                - file: content/slides/advanced-packaging/slide-02/slide-05.md
+                - file: content/slides/advanced-packaging/slide-02/slide-06.md
+                - file: content/slides/advanced-packaging/slide-02/slide-07.md
                 #[[[end]]]
             - title: Dynamic Metadata
               children: []
