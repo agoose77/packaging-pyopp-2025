@@ -6,6 +6,4 @@ site:
 
 +++ { "class": "slide" }
 
-# Dependency Injection
-
 ![](../../../../media/dependency-injection.webp)

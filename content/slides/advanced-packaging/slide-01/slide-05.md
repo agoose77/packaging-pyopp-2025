@@ -22,7 +22,7 @@ we have
 
 ```{code} python
 :emphasize-lines: 1
-:linenos:
+:linenosc
 
 def application(plugin):
     plugin.compute()
