@@ -24,7 +24,7 @@ def show_package_info():
 It's possible to get the _installed_ version another way:
 
 ```{code} python
-:label: code:use-version-py
+:label: code:use-version-py-imp
 import importlib.metadata
 importlib.metadata.version("arrow-to-knee")
 ```
