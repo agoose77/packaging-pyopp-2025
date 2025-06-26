@@ -4,32 +4,15 @@ site:
   hide_outline: true
 ---
 
-# How Do I Build a Dynamic README (ctd)?
+# Conclusion
 
-Next, configure the `fancy-pypi-readme` tool:
+:::{important} Conclusion
+:label: important:conclusion-dynamic-metadata
 
-```{code} toml
-:filename: pyproject.toml
-:label: code:pyproject-fancy-tool
-[tool.hatch.metadata.hooks.fancy-pypi-readme]
-content-type = "text/markdown"
-```
+We have learned that:
 
-Finally, define your readme `fragments`:
-
-```{code} toml
-:filename: pyproject.toml
-:label: code:pyproject-fancy-tool-frag
-[[tool.hatch.metadata.hooks.fancy-pypi-readme.fragments]]
-path = "README.md"
-start-after = "<!-- BEGIN README 1 -->"
-end-before = "<!-- END README 1 -->"
-
-[[tool.hatch.metadata.hooks.fancy-pypi-readme.fragments]]
-text = "This is a readme\n"
-
-[[tool.hatch.metadata.hooks.fancy-pypi-readme.fragments]]
-path = "README.md"
-start-after = "<!-- BEGIN README 2 -->"
-end-before = "<!-- END README 2 -->"
-```
+- Build backends can _themselves_ declare dependencies.
+- Fields in `pyproject.toml` can be dynamic.
+- Some people use `__version__` for versioning
+- Hatch has a plugin mechanism for wiring these in.
+  :::

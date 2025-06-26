@@ -4,33 +4,23 @@ site:
   hide_outline: true
 ---
 
-# How Do I Use `__version__` with `hatchling`?
+# How Do I Build a Dynamic README?
 
-First, set the `version` to be dynamic and _remove_ the `version` field:
+First, add `hatch-fancy-pypi-readme` to your `[build-system]` table:
 
 ```{code} toml
 :filename: pyproject.toml
-:label: code:pyproject-ver-dync
+:label: code:pyproject-fancy
+[build-system]
+requires = ["hatchling", "hatch-fancy-pypi-readme"]
+build-backend = "hatchling.build"
+```
+
+Then tell `hatchling` about the dynamic readme and _remove_ the `readme` field:
+
+```{code} toml
+:filename: pyproject.toml
+:label: code:pyproject-dynamic
 [project]
-dynamic = ["version"]
-# version = "1.0.0"
-```
-
-Then tell `hatchling` about the version source:
-
-```{code} toml
-:filename: pyproject.toml
-:label: code:pyproject-ver-source
-[tool.hatch.version]
-source = "regex"
-path = "src/arrow_to_knee/__init__.py"
-```
-
-Now add `__version__` to `__init__.py`
-
-```{code} toml
-:filename: src/arrow_to_knee/__init__.py
-:label: code:init-ver
-# This package version
-__version__ = "1.0.0"
+dynamic = ["version", "readme"]
 ```

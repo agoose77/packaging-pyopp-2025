@@ -4,29 +4,33 @@ site:
   hide_outline: true
 ---
 
-# Want to Set Version in Python?
+# How Do I Use `__version__` with `hatchling`?
 
-Some people prefer to define their version in a `__version__` global.
+First, set the `version` to be dynamic and _remove_ the `version` field:
 
-```{code} python
-:label: code:version-py
+```{code} toml
+:filename: pyproject.toml
+:label: code:pyproject-ver-dync
+[project]
+dynamic = ["version"]
+# version = "1.0.0"
+```
+
+Then tell `hatchling` about the version source:
+
+```{code} toml
+:filename: pyproject.toml
+:label: code:pyproject-ver-source
+[tool.hatch.version]
+source = "regex"
+path = "src/arrow_to_knee/__init__.py"
+```
+
+Now add `__version__` to `__init__.py`
+
+```{code} toml
+:filename: src/arrow_to_knee/__init__.py
+:label: code:init-ver
+# This package version
 __version__ = "1.0.0"
 ```
-
-This lets you use the version number in your code:
-
-```{code} python
-:label: code:use-version-py
-def show_package_info():
-    print(f"This package has version {__version__}")
-```
-
-It's possible to get the _installed_ version another way:
-
-```{code} python
-:label: code:use-version-py-imp
-import importlib.metadata
-importlib.metadata.version("arrow-to-knee")
-```
-
-But this can be "slow" for some applications.
