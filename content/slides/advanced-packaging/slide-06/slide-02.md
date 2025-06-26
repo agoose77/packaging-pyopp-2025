@@ -6,8 +6,8 @@ site:
 
 # Links
 
-:::{see also} Links
+:::{seealso} Links
 
 - The [Scientific Python Guide](https://learn.scientific-python.org/development/guides/packaging-compiled) on compiled packaging.
-- The [Scientific Python Cookiecutter](https://github.com/scientific-python/cookie)
+- The [Scientific Python Cookiecutter](https://github.com/scientific-python/cookie).
   :::

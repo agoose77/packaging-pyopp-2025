@@ -20,7 +20,7 @@ And the `pyproject.toml` entry is also small:
 :::{literalinclude} ../../../../arrow-to-knee/pyproject.toml
 :label: code:plugin-meta
 :filename: pyproject.toml
-:lines: 42-43
+:lines: 41-43
 :linenos:
 :lineno-match:
 :::
