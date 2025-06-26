@@ -102,13 +102,6 @@ project:
                 - file: content/slides/advanced-packaging/slide-03/slide-09.md
             - title: File Selection
               children:
-                #[[[cog]
-                #
-                # import pathlib
-                # base_indent = ""
-                # for slide in sorted(pathlib.Path("content/slides/advanced-packaging/slide-04/").glob("*.md")):
-                #     print(f"- file: {slide}")
-                #]]]
                 - file: content/slides/advanced-packaging/slide-04/slide-01.md
                 - file: content/slides/advanced-packaging/slide-04/slide-02.md
                 - file: content/slides/advanced-packaging/slide-04/slide-03.md
@@ -117,11 +110,27 @@ project:
                 - file: content/slides/advanced-packaging/slide-04/slide-06.md
                 - file: content/slides/advanced-packaging/slide-04/slide-07.md
                 - file: content/slides/advanced-packaging/slide-04/slide-08.md
-                #[[[end]]]
             # version, description
-            - title: Build Plugins
-              children: []
+            - title: Data Files
+              children:
+                #[[[cog]
+                #
+                # import pathlib
+                # base_indent = ""
+                # for slide in sorted(pathlib.Path("content/slides/advanced-packaging/slide-05/").glob("*.md")):
+                #     print(f"- file: {slide}")
+                #]]]
+                - file: content/slides/advanced-packaging/slide-05/slide-01.md
+                - file: content/slides/advanced-packaging/slide-05/slide-02.md
+                - file: content/slides/advanced-packaging/slide-05/slide-03.md
+                - file: content/slides/advanced-packaging/slide-05/slide-04.md
+                - file: content/slides/advanced-packaging/slide-05/slide-05.md
+                - file: content/slides/advanced-packaging/slide-05/slide-06.md
+                - file: content/slides/advanced-packaging/slide-05/slide-07.md
+                #[[[end]]]
             - title: Compiled Extensions
+              children: []
+            - title: Build Plugins
               children: []
             - title: Packaging for the web
               children: []
