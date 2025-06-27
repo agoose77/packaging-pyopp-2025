@@ -123,7 +123,7 @@ We learned that the PyPA call this a {term}`distribution package`. You can _easi
 A very important disclaimer from the 2000s, about packaging.
 :::
 
-```{code-cell}
+```{code-cell} python3
 :label: cell:numpy-download
 %pip download numpy
 ```

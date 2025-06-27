@@ -113,7 +113,7 @@ This is a fragile operation, and might not succeed. Feel free to ask for help
 
 With our basic project scaffolding, we have all the pieces required to build our first distributions! The `hatch build` command does everything we need:
 
-```{code-cell}
+```{code-cell} python3
 :label: code:hatch-build
 %%bash
 cd ./arrow-to-knee

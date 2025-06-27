@@ -99,7 +99,6 @@ project:
                 - file: content/slides/advanced-packaging/slide-03/slide-06.md
                 - file: content/slides/advanced-packaging/slide-03/slide-07.md
                 - file: content/slides/advanced-packaging/slide-03/slide-08.md
-                - file: content/slides/advanced-packaging/slide-03/slide-09.md
             - title: File Selection
               children:
                 - file: content/slides/advanced-packaging/slide-04/slide-01.md
