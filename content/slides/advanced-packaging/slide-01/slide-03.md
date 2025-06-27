@@ -6,6 +6,4 @@ site:
   hide_title_block: true
 ---
 
-
-
-![](../../../../media/wat.gif)
+![](#img:wat)

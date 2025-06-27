@@ -13,6 +13,9 @@ project:
         - file: content/how-to-add-dependencies.md
         - file: content/how-to-define-scripts.md
         - file: content/library-vs-apps.md
+    - title: Advanced Packaging
+      children:
+        - file: content/how-to-add-plugins.md
     - title: Slides
       children:
         - title: Introduction to Packaging

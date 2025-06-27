@@ -6,6 +6,4 @@ site:
   hide_title_block: true
 ---
 
-
-
-![](../../../../media/dependency-injection.webp)
+![](#img:dep-inj)

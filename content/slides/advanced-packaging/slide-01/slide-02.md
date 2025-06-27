@@ -4,8 +4,6 @@ site:
   hide_outline: true
 ---
 
-
-
 # The Problem
 
 - I am writing an application or library 🤖

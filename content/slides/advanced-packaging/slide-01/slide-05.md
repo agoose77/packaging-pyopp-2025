@@ -4,28 +4,16 @@ site:
   hide_outline: true
 ---
 
-
-
 # What is Dependency Injection?
+
+![](#glossary:di)
 
 Instead of
 
-```{code} python
-:linenos:
-:label: code:no-dep-inj
-import plugin
-
-def application():
-    plugin.compute()
-```
+:::{embed} #code:no-dep-inj
+:::
 
 we have
 
-```{code} python
-:emphasize-lines: 1
-:linenos:
-:label: code:dep-inj
-
-def application(plugin):
-    plugin.compute()
-```
+:::{embed} #code:dep-inj
+:::
