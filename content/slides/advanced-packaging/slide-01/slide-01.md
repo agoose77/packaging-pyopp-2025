@@ -6,7 +6,7 @@ site:
 
 # Objective
 
-:::{important} Objective
+:::{tip} Objective
 :label: important:objective-entry-points
 
 - To discover the _entry point_ mechanism.

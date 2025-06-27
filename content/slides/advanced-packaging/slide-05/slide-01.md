@@ -6,7 +6,7 @@ site:
 
 # Objective
 
-:::{important} Objective
+:::{tip} Objective
 :label: important:objective-data-files
 
 - To learn how Python understands "data files".

@@ -6,7 +6,7 @@ site:
 
 # Objective
 
-:::{important} Objective
+:::{tip} Objective
 :label: important:objective-editable-installs
 
 - To learn about editable installs.

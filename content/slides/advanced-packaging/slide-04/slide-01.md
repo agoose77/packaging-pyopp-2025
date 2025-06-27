@@ -6,7 +6,7 @@ site:
 
 # Objective
 
-:::{important} Objective
+:::{tip} Objective
 :label: important:objective-file-selection
 
 - To learn how `hatchling` chooses what to include in your package.

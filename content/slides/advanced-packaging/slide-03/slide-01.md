@@ -6,7 +6,7 @@ site:
 
 # Objective
 
-:::{important} Objective
+:::{tip} Objective
 :label: important:objective-dynamic-metadata
 
 - To learn how package metadata can be dynamic.
