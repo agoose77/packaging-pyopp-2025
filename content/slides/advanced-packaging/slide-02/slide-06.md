@@ -6,14 +6,7 @@ site:
 
 # Python is a detective
 
-:::{tip} Python's import system is {span}`INSANE`
-:class: span-col-rainbow
-
-1. It runs a list of "finders" in `sys.meta_path`
-2. It uses `sys.path_hooks` whilst searching `sys.path`
-
-You can abuse this to e.g. import Jupyter Notebooks or import CSV files.
-:::
+![](#tip:import-insane)
 
 Python runs some startup code that prepares `sys.path`.
 

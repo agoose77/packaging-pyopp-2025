@@ -16,6 +16,7 @@ project:
     - title: Advanced Packaging
       children:
         - file: content/how-to-add-plugins.md
+        - file: content/how-to-editable-install.md
     - title: Slides
       children:
         - title: Introduction to Packaging
