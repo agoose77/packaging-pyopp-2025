@@ -3,7 +3,7 @@ title: Packaging in Python
 subtitle: The Good, the Bad, the Ugly!
 ---
 
-This project contains my lecture notes for introductory and advance packaging with Python. There is a lot that _isn't_ covered — that's OK! There's always more to learn with Packaging. The most important thing is to understand the basic components, and feel confident in trying things out!
+This project contains my lecture notes for introductory and advance packaging with Python. There is a lot that _isn't_ covered — that's OK! There's always more to learn with packaging. The most important thing is to understand the basic components, and feel confident in trying things out!
 
 Everyone reading these notes are going to have a different starting point. Some of you will already be publishing packages. There may be a few of you who know how to author packages in an entirely different language altogether! Others will never have set foot in the world of Python packaging.
 
