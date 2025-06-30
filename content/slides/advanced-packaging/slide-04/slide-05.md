@@ -8,20 +8,8 @@ site:
 
 You can specify _exactly_ which files to `include` and `exclude` in your distribution, e.g. for the {term}`source distribution`:
 
-```{code} toml
-:filename: pyproject.toml
-:label: code:pyproject-file-sdist-inc
-:linenos:
-[tool.hatch.build.targets.sdist]
-include = [
-  "src/arrow_to_knee/*.py",
-  "/tests",
-]
-exclude = [
-  "*.json",
-  "src/arrow_to_knee/some-random-file.py",
-]
-```
+:::{embed} #code:pyproject-file-sdist-inc
+:::
 
 The `exclude` takes precedence, and `/` refers to the project root.
 

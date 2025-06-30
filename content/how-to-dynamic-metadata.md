@@ -1,9 +1,6 @@
 ---
 title: How Dynamic Metadata are Defined
 subtitle: The secret to setting your version in a Python file
-kernelspec:
-  name: python3
-  display_name: Python 3
 ---
 
 :::{tip} Objective

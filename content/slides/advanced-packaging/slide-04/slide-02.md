@@ -8,12 +8,8 @@ site:
 
 {term}`Source distributions<source distribution>` should include _all_ of the important files:
 
-- tests
-- docs
-- code
-- data files
+![](#div:sdist-include)
 
 They do not need to include GitHub Actions configuration or other Git files:
 
-- ignore `.github/`
-- ignore `.git/`
+![](#div:sdist-remove)

@@ -8,5 +8,4 @@ site:
 
 {term}`Binary distributions<binary distribution>` should _only_ include what is required to run your project:
 
-- code
-- data files
+![](#div:binary-remove)
