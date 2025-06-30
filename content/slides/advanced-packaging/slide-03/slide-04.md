@@ -4,29 +4,21 @@ site:
   hide_outline: true
 ---
 
-# Want to Set Version in Python?
+# Want to Set the Version in Python?
 
 Some people prefer to define their version in a `__version__` global.
 
-```{code} python
-:label: code:version-py
-__version__ = "1.0.0"
-```
+:::{embed} #code:version-py
+:::
 
 This lets you use the version number in your code:
 
-```{code} python
-:label: code:use-version-py
-def show_package_info():
-    print(f"This package has version {__version__}")
-```
+:::{embed} #code:use-version-py
+:::
 
 It's possible to get the _installed_ version another way:
 
-```{code} python
-:label: code:use-version-py-imp
-import importlib.metadata
-importlib.metadata.version("arrow-to-knee")
-```
+:::{embed} #code:use-version-py-imp
+:::
 
 But this can be "slow" for some applications.

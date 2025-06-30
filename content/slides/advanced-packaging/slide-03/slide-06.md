@@ -8,19 +8,9 @@ site:
 
 First, add `hatch-fancy-pypi-readme` to your `[build-system]` table:
 
-```{code} toml
-:filename: pyproject.toml
-:label: code:pyproject-fancy
-[build-system]
-requires = ["hatchling", "hatch-fancy-pypi-readme"]
-build-backend = "hatchling.build"
-```
-
+:::{embed} #code:pyproject-fancy
+:::
 Then tell `hatchling` about the dynamic readme and _remove_ the `readme` field:
 
-```{code} toml
-:filename: pyproject.toml
-:label: code:pyproject-dynamic
-[project]
-dynamic = ["version", "readme"]
-```
+:::{embed} #code:pyproject-dynamic
+:::

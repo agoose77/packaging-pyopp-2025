@@ -17,6 +17,7 @@ project:
       children:
         - file: content/how-to-add-plugins.md
         - file: content/how-to-editable-install.md
+        - file: content/how-to-dynamic-metadata.md
     - title: Slides
       children:
         - title: Introduction to Packaging
