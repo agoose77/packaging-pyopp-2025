@@ -96,24 +96,27 @@
 }
 /* Slide styles */
 @media all and (display-mode: fullscreen) {
-  /* Hide header icons */
-  #skip-to-frontmatter {
-    & > :first-child {
+  /* Allow opt out of slide */
+  html:not(.no-slide) {
+    /* Hide header icons */
+    #skip-to-frontmatter {
+      & > :first-child {
+        display: none;
+      }
+      /* Hide author */
+      header {
+        display: none;
+      }
+    }
+    /* Hide primary nav */
+    div:has(> nav) {
       display: none;
     }
-    /* Hide author */
-    header {
-      display: none;
-    }
-  }
-  /* Hide primary nav */
-  div:has(> nav) {
-    display: none;
-  }
 
-  /* Hide the buttons */
-  main > :last-child {
-    display: none;
+    /* Hide the buttons */
+    main > :last-child {
+      display: none;
+    }
   }
 }
 
